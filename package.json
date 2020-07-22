@@ -1,0 +1,18 @@
+{
+  "name": "node-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js",
+   "lint:fix": "standard --fix index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "standard": "^14.3.4"
+  }
+}
